@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://212.64.12.73:5432/demo
+    username: admin
+    password: 123456
+  session:
+    store-type: redis
+  data:
+    redis:
+      host: 212.64.12.73
+      port: 6379
