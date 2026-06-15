@@ -1,2 +1,4 @@
-com\h3c\controller\HelloController.class
 com\h3c\App.class
+com\h3c\controller\HelloController.class
+com\h3c\controller\UserController.class
+com\h3c\entity\User.class

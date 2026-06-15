@@ -16,6 +16,11 @@ public class User implements Serializable {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return "User{id=" + id + ", name='" + name + "'}";
+    }
+
     public Long getId() {
         return id;
     }
